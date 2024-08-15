@@ -134,3 +134,32 @@ section {
     border-radius: 10px;
 }
 /* hero styles end */
+
+/* section title styles start */
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: hotpink;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+.primary-border {
+    border-color: brown;
+}
+.secondary-border {
+    border-color: brown;
+}
+/* section title style end */
+
+/* what we do section start */
+.intro p {
+    line-height: 1.7;
+    color: darkcyan;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+/* what we do style end */
