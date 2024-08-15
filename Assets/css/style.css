@@ -246,3 +246,81 @@ section {
     font-size: 17px;
 }
 /* meet the trainers style end */
+
+/* reach out style start */
+.contact {
+    background-color: peru;
+}
+.contact h2 {
+    color: aqua;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+.contact-info iframe {
+    height: 400px;
+}
+.contact-info div {
+    color: navy;
+}
+.contact-info h3 {
+    color: darkmagenta;
+    font-size: 32px;
+}
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+.contact-form input, .contact-form textarea {
+    border: 1px solid darkgreen;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: green;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: paleturquoise;
+    outline: none;
+}
+.contact-form button {
+    width: 100%;
+    border: none;
+    background-color: peachpuff;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.contact-form button:hover {
+    color: indigo;
+    background-color: lawngreen;
+}
+.contact-info a {
+    color: midnightblue;
+}
+/* reach out style end */
+
+/* UTILITIES */
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.flex-row {
+    display: flex;
+}
